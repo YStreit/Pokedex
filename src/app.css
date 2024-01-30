@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+#app {
+  width: 100%;
+  text-align: center;
+}
+
+
+@media (min-width: 601px) {
+:root {
+  font-family: "Oswald", sans-serif;
+
+  font-weight: 400;
+
+ 
+  color: #242424;
+  background-color: #F6F6FE;
+
+}
+.seitscrollbox {
+  white-space: nowrap;
+  overflow-x: auto;
+margin: auto;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    max-width: 60%;
+}
+.seitscrollbox::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.filterknopf{
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17;
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  font-family: "Silkscreen", sans-serif;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  
+  text-align: center;
+  transition: .2s;
+  user-select: none;
+  white-space: pre;
+  
+  width: 60%;
+  word-break: normal;
+  word-spacing: normal;
+}
+.filterknopf:hover {
+  background: #f8f8ff;
+  box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+}
+
+
+
+a {
+  font-weight: 500;
+  color: white;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #8A90FF;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+#app {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  border-radius: 15px;
+  border: 1px solid transparent;
+  padding: 4px 12px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 5px;
+  font-family: "Silkscreen", sans-serif;
+
+}
+button:hover {
+  border-color: #646cff;
+  border-width: 3px;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+}
+
+
+@media (max-width: 600px) {
+  :root {
+    font-family: "Oswald", sans-serif;
+  
+    font-weight: 400;
+  
+    color: #242424;
+    background-color: #F6F6FE;
+  
+  }
+  body {
+    margin: 0;
+    display: flex;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+
+  .seitscrollbox {
+    white-space: nowrap;
+    overflow-x: auto;
+  margin: auto;
+      justify-content: center;
+      align-items: center;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 10px;
+      max-width: 60%;
+  }
+  .seitscrollbox::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+  
+  .filterknopf{
+    align-items: center;
+    background: #f5f5fa;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17;
+    box-sizing: border-box;
+    color: #2a1f62;
+    cursor: pointer;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 1rem;
+    justify-content: center;
+    line-height: 1.5rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    text-align: center;
+    transition: .2s;
+    user-select: none;
+    white-space: pre;
+    
+    width: 60%;
+    word-break: normal;
+    word-spacing: normal;
+  }
+  .filterknopf:hover {
+    background: #f8f8ff;
+    box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+  }
+  button {
+    border-radius: 15px;
+    border: 1px solid transparent;
+    padding: 4px 12px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin: 5px;
+    font-family: "Silkscreen", sans-serif;
+  
+  }
+  button:hover {
+    border-color: #646cff;
+    border-width: 3px;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+  a {
+    font-weight: 500;
+    color: white;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #8A90FF;
+  }
+}
+
+
+  
+  
+
+
